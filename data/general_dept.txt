@@ -1,0 +1,196 @@
+Program Description
+The Master of Science in Computer Science and Information Technology (MCST) program is designed to equip graduates with the skills necessary for careers in computer science and information technology. This program combines a solid foundation in traditional computer science with practical courses in information technology, equipping students with the expertise to develop and manage technology-driven solutions for a variety of information needs. Furthermore, the curriculum highlights communication and leadership skills that are essential for success in corporate and government settings.
+
+To accommodate working professionals, most courses are held in the evening. The program takes place at Winston-Salem State University in the state-of-the-art Elva J. Jones Computer Science Building. This multi-million-dollar facility offers advanced instructional infrastructure, including computer labs, specialized research labs, departmental servers, faculty and graduate offices, and dedicated student study areas.
+
+Mission
+The Master of Science in Computer Science and Information Technology program aims to equip graduates with the knowledge and skills necessary for careers in computer science and information technology. Graduates will be prepared for roles in systems development and support, network administration, database administration, information resource management, and other technology roles. 
+
+Learning Outcomes
+Upon successful completion of the MS in Computer Science and Information Technology program, students will exhibit the following student learning outcomes:
+
+Graduates will show evidence of a strong foundation of core computer science knowledge, including architecture, operating systems, and algorithms;
+Graduates will show evidence of mastery of graduate level concepts associated with a selected concentration in computer science or information technology;
+Graduates will exhibit the ability to conduct an independent capstone activity that will produce an original work in the field (thesis for the computer science concentration or project for the information technology concentration).
+Admission Requirements
+An earned baccalaureate degree in a related field from an accredited college or university. In lieu of a baccalaureate degree in a related field, evidence of prerequisite coursework or equivalent experience in computer science and information technology core areas.
+Official application and application fee (see graduate admissions for the current fee amount, https://www.wssu.edu/about/offices-and-departments/student-accounts/winston-salem-state-university-tuition-and-fees.html.
+Official transcript from each institution where undergraduate or graduate work was completed
+Official report of GRE scores—General exam is optional.
+Three recommendation forms and/or letters (at least two from faculty/advisors/counselors and one from a practicing professional)
+A written personal statement (essay describing professional goals, experience, and research interests)
+Resume reflecting work-relevant experience
+Documentation of prior learning that satisfies program prerequisite knowledge (in lieu of prerequisite courses—for applicants who do not hold the BS in computer science)
+International applicants must submit a Sponsor’s Affidavit, Financial Certification and an Intent to Enroll Form
+International applicants whose native language is not English must submit a Test of English as a Foreign Language (TOEFL) score of at least 550 (80 in the new test). Non-native English speakers with international transcripts, regardless of U.S. citizenship, must demonstrate proficiency in the English language. Applicants may present a satisfactory score on the TOEFL language proficiency test. The minimum required TOEFL score varies depending on the format of the exam taken (Internet-based = 79, or paper-based = 550). An equivalent IELTS score of 6.5 (no part is below 6.5). The English language proficiency requirement may be waived if the applicant holds a degree from a university in a country where English is the official language.
+Application Deadlines
+ 	Fall semester	Spring semester
+Domestic students	May 1st	October 1st
+International students	April 1st	September 1st
+Virtual Information Session
+6:30 PM, First Wednesday of September
+6:30 PM, First Wednesday of April
+Please register for the next session here.
+
+Transfer Credits
+Subject to the approval of the Department of Computer Science, up to six (6) semester hours of graduate transfer credit may be applied towards the MS in Computer Science and Information Technology degree. Graduate transfer credit will only be granted for courses completed with a grade of “B” or better. Transfer credit should be requested at the time of admission to the program.
+
+Degree/Option Requirements
+The MS in Computer Science and Information Technology requires 30 to 33 credit hours. A minor is not required. Students must maintain an overall grade point average of 3.0 (a “B” average). No more than two grades of “C” may be earned in the program.
+
+Students pursuing an MS in Computer Science and Information Technology must choose one of the following concentrations along with the corresponding culminating activity (project, thesis, or exam) for that concentration:
+
+Concentration	
+Core
+
+(Credit hours)
+
+Required
+
+(Credit hours)
+
+Elective
+
+(Credit hours)
+
+Other requirements
+
+(Credit hours)
+
+Total Requirements
+Thesis	9	9	6	Thesis research with a written research report and presentation	30
+6
+Project	9	9	12	Project work with a written report and presentation	33
+3
+Exam	9	9	15	Comprehensive exam on the content of the MCST core and required courses	33
+0
+
+Degree Requirements for MCST 
+
+Time Limits for Completion
+The MS in Computer Science and Information Technology program can be completed within two years of full-time study. A student may not take longer than six years to complete the curriculum.
+
+Progression Requirements
+Students in the MS in Computer Science and Information Technology program must maintain an overall grade point average of 3.0 (“B” average). No more than two grades of “C” may be earned in the program.
+
+
+Program Contact
+Jacqueline Bethea
+Elva Jones Computer Science Building, Room 4211
+Phone: (336)750-2478
+Email: betheaj@wssu.edu
+
+Course of Study
+Concentration: Thesis, Project, and Exam 
+Thesis core courses: CST 5320 - Design and Analysis of Algorithms Methods 
+
+CST 5322 - Advanced Software Engineering 
+
+CST 6306 - Advanced Database Management Systems
+
+Thesis required courses: CST 5320 - Design and Analysis of Algorithms Methods 
+
+CST 6301 - Advanced Computer Architecture
+
+CST 6302 - Programming Languages and Compilers 
+
+Thesis other required courses: CST 6601- Master’s Thesis Research 
+
+Project core courses: None 
+
+Project required courses: CST 5325 - Electronic Commerce Technology 
+
+CST 5328 - Computer Networks 
+
+CST 6305 - Internet Technology Systems 
+
+Project other required courses: CST 6312 - Master’s Project 
+
+Exam core courses: None 
+
+Exam required courses: Pick one of these courses - CST 5320 - Design and Analysis of Algorithms Methods 
+
+CST 6301 - Advanced Computer Architecture
+
+CST 6302 - Programming Languages and Compilers 
+
+CST 5325 - Electronic Commerce Technology 
+
+CST 5328 - Computer Networks 
+
+CST 6305 - Internet Technology Systems 
+
+Exam other required courses: None 
+
+The following elective courses are for all 3 concentrations (Thesis, Project, Exam)
+CST 5101 - Computer Science Graduate Orientation
+
+CST 5130 - Special Topics 
+
+CST 5301 - Parallel Computing 
+
+CST 5302 - Organization of Programming Language 
+
+CST 5303 - Software Design and Development 
+
+CST 5304 - Database Systems Design 
+
+CST 5305 - Advanced Computer Graphics 
+
+CST 5306 - System Simulation and Modeling 
+
+CST 5307 - Introduction to Automata, Formal Languages and Computability 
+
+CST 5308 - Systems Design and Development 
+
+CST 5309 - Computer Communication Networks 
+
+CST 5316 - Foundations of Data Analytics 
+
+CST 5323 - Systems Concepts 
+
+CST 5324 - Information Technology Ethics, Policy, & Privacy 
+
+CST 5326 - Human-Computer Interaction 
+
+CST 5329 - Internet Protocols 
+
+CST 5330 - Distributed and Parallel Computing 
+
+CST 5331 - Software Testing and Quality Assurance 
+
+CST 5332 - Computational Methods for Biotechnology Systems 
+
+CST 5333 - Scientific Visualization and Image Processing 
+
+CST 5334 - Fundamentals of Geographic Information Systems 
+
+CST 5335 - Cryptography 
+
+CST 5340 - Hardware and Media Security 
+
+CST 5350 - Intelligent Information Organization & Retrieval 
+
+CST 6000 - Master’s Examination 
+
+CST 6130 - IT Project 
+
+CST 6303 - Artificial Intelligence Methods 
+
+CST 6304 - Principles of Information Technology 
+
+CST 6307 - Data Mining 
+
+CST 6308 - Network Design, Performance and Evaluation 
+
+CST 6309 - Network Security 
+
+CST 6310 - Neural Networks 
+
+CST 6311 - GIS Technologies 
+
+CST 6314 - Big Data Analytics 
+
+CST 6320 - Data Visualization 
+
+CST 7130 - Project/Thesis Extension 
