@@ -8,7 +8,7 @@ import os
 import re
 from pathlib import Path
 from typing import List, Dict, Tuple
-from dotenv import load_dotenv
+
 
 # LangChain imports
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
@@ -24,7 +24,7 @@ from pypdf import PdfReader
 import tempfile
 
 # Load environment variables
-load_dotenv()
+
 
 # Constants
 MAX_CREDITS = 9
