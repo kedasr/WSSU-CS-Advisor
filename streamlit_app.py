@@ -36,8 +36,8 @@ st.set_page_config(
 st.markdown("""
 <style>
     .main-header {
-        font-size: 2.5rem;
-        color: #FFFFFF;
+        font-size: 2.5rem !important;
+        color: #FFFFFF !important;
         text-align: center;
         padding: 1rem;
         background: linear-gradient(135deg, #C41E3A 0%, #1a1a1a 100%);
