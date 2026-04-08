@@ -150,7 +150,7 @@ Answer (2-3 sentences):"""
         return rag_chain.invoke(query)
 
 def generate_course_advice(track: str, selected: List[dict], credits: int) -> str:
-    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.4)
+    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.4, openai_api_key=st.secrets["OPENAI_API_KEY"])
     
     courses_text = "\n".join(
         f"- {c['code']} ({c['Credits']} credits): {c['Title']}"
