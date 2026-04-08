@@ -68,12 +68,25 @@ st.markdown("""
 if 'rag_advisor' not in st.session_state:
     st.session_state.rag_advisor = None
 
+def get_api_key() -> str:
+    """Get OpenAI API key from Streamlit secrets or environment."""
+    try:
+        return st.secrets["OPENAI_API_KEY"]
+    except (KeyError, FileNotFoundError):
+        import os
+        key = os.environ.get("OPENAI_API_KEY", "")
+        if key:
+            return key
+        return ""
+
 class LangChainRAGAdvisor:
     """RAG-based advisor using LangChain."""
     
     def __init__(self, persist_directory: str = CHROMA_PERSIST_DIR):
         """Initialize the RAG system with LangChain components."""
-        api_key = st.secrets["OPENAI_API_KEY"]
+        api_key = get_api_key()
+        if not api_key:
+            raise ValueError("OPENAI_API_KEY not found")
         self.embeddings = OpenAIEmbeddings(model="text-embedding-3-small", openai_api_key=api_key)
         self.llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.3, openai_api_key=api_key)
         self.persist_directory = persist_directory
@@ -150,7 +163,7 @@ Answer (2-3 sentences):"""
         return rag_chain.invoke(query)
 
 def generate_course_advice(track: str, selected: List[dict], credits: int) -> str:
-    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.4, openai_api_key=st.secrets["OPENAI_API_KEY"])
+    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.4, openai_api_key=get_api_key())
     
     courses_text = "\n".join(
         f"- {c['code']} ({c['Credits']} credits): {c['Title']}"
@@ -181,6 +194,17 @@ def main():
     
     # Initialize RAG
     if st.session_state.rag_advisor is None:
+        api_key = get_api_key()
+        if not api_key:
+            st.error("⚠️ **OpenAI API key not configured.** Please add your API key:")
+            st.markdown("""
+            **On Streamlit Cloud:** Click *Manage app* (bottom-right) → *Settings* → *Secrets*, then add:
+            ```
+            OPENAI_API_KEY = "sk-your-key-here"
+            ```
+            **Running locally:** Create `.streamlit/secrets.toml` with the same content.
+            """)
+            st.stop()
         with st.spinner("Loading knowledge base..."):
             st.session_state.rag_advisor = LangChainRAGAdvisor()
     
