@@ -105,8 +105,10 @@ class LangChainRAGAdvisor:
     """RAG-based advisor using LangChain."""
     
     def __init__(self, persist_directory: str = CHROMA_PERSIST_DIR):
-        self.embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
-        self.llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.3)
+        """Initialize the RAG system with LangChain components."""
+        api_key = st.secrets["OPENAI_API_KEY"]
+        self.embeddings = OpenAIEmbeddings(model="text-embedding-3-small", openai_api_key=api_key)
+        self.llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.3, openai_api_key=api_key)
         self.persist_directory = persist_directory
         
         if Path(persist_directory).exists():
