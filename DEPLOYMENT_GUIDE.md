@@ -46,7 +46,7 @@ git push -u origin main
 ```
 your-repo/
 ├── streamlit_app.py          ← Main app
-├── requirements_streamlit.txt ← Dependencies
+├── requirements.txt          ← Dependencies
 ├── data/
 │   ├── general_dept.txt
 │   └── Spring2026_Courses.xlsx
@@ -62,7 +62,7 @@ your-repo/
 4. Select your repository
 5. Set:
    - **Main file**: `streamlit_app.py`
-   - **Requirements file**: `requirements_streamlit.txt`
+   - **Requirements file**: `requirements.txt`
 6. Click **"Advanced settings"**
 7. Add secrets:
    ```toml
@@ -108,7 +108,7 @@ Send this to your boss and professors! 🎉
 3. Click **"New +"** → **"Web Service"**
 4. Connect your GitHub repo
 5. Settings:
-   - **Build Command**: `pip install -r requirements_streamlit.txt`
+   - **Build Command**: `pip install -r requirements.txt`
    - **Start Command**: `streamlit run streamlit_app.py --server.port=$PORT`
 6. Add environment variable:
    - Key: `OPENAI_API_KEY`
@@ -185,7 +185,7 @@ st.image("wssu_logo.png", width=200)
 ## 🐛 Troubleshooting
 
 ### "Module not found"
-→ Make sure `requirements_streamlit.txt` is in your repo
+→ Make sure `requirements.txt` is in your repo
 
 ### "Knowledge base not found"
 → Make sure you uploaded the `chroma_db/` folder
